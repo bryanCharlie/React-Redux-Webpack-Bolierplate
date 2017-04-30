@@ -2,7 +2,7 @@
 
 ##  Desciption
 
-This simple 2 player TicTacToe Project was written in React, Redux and Webpack. Select a square to place a piece on the game board.
+This simple 2 player TicTacToe Project was written in React, Redux and Webpack. Players take turns selecting a piece to place on the game board.
 
 ## To Build
 
