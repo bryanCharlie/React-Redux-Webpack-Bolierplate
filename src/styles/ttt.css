@@ -1,0 +1,21 @@
+.square {
+    border: 2px solid;
+    width: 100px;
+    height: 100px;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.squareContainer {
+    max-width: 314px;
+    max-height: 314px;
+    position: relative;
+    overflow: hidden;
+    left: 40%;
+}
+.controls {
+    left: 50%;
+    position: relative;
+}
