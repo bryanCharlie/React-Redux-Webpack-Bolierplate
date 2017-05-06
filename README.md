@@ -1,8 +1,8 @@
-# TicTacToe
+# React, Redux, Webpack
 
 ##  Desciption
 
-This simple 2 player TicTacToe Project was written in React, Redux and Webpack. Players take turns selecting a piece to place on the game board.
+React, Redux and Webpack development configuration and folder structure with TicTacToe example game.
 
 ## To Build
 
