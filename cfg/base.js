@@ -45,6 +45,13 @@ module.exports = {
                 test: /\.js$/,
                 exclude: /node_modules/,
                 include: srcPath,
+                enforce: 'pre',
+                use: ['eslint-loader']
+            },
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                include: srcPath,
                 use: [{
                     loader: 'babel-loader',
                     options: {
@@ -56,10 +63,13 @@ module.exports = {
             {
                 test: /\.css$/,
                 include: srcPath,
-                use: [{
-                    loader: 'css-loader'
-                }]
-            }
+                use: ['style-loader', 'css-loader']
+            },
+            {
+                test: /\.scss$/,
+                include: srcPath,
+                use: ['style-loader', 'css-loader', 'sass-loader']
+            },
         ]
     }
 }

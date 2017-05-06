@@ -36,7 +36,7 @@ export class GameBoard extends Component {
                     key={index}
                     index={index}
                     selection={currentSelection}
-                /> );
+                /> )
         })
         return <div>
             <div className='squareContainer row'>
@@ -44,7 +44,7 @@ export class GameBoard extends Component {
             </div>
             <div className="controls">
                 <div className='playerTurn'>
-                    <span> { !this.props.win ? `Player ${this.props.currentPlayer}'s turn!` : `WINNER!!!!` } </span>
+                    <span> { !this.props.win ? `Player ${this.props.currentPlayer}'s turn!` : 'WINNER!!!!' } </span>
                 </div>
                 <div>
                     <button type="button" onClick={this.props.clearBoard}> Reset Game </button>
