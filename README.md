@@ -6,7 +6,7 @@ React, Redux and Webpack development configuration and folder structure with Tic
 
 ## To Build
 
-To run the application, clone and project and install with `npm install`. To launch the project, run `npm run start`
+To run the application, clone and project and install with `npm install`. To launch the project, run `npm run start`.
 
 ### Tech Stack
 
